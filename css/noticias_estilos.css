@@ -1,0 +1,45 @@
+/*
+Módulo: LMSGI02
+Tarea: Tarea evaluativa 2. Sitio Web.
+UD: 02
+Autor: Asier Pérez Silanes
+Fecha: 29/11/2024
+Enlace reflexión:
+*/
+
+/*Distribuimos el contenido de una sección mediante flexbox, y definimos los márgenes*/
+section{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 0% 0% 2% 2%;
+}
+
+/*Definimos el ancho de las imágenes*/
+section img{
+    width: 20%;
+}
+
+/*Definimos el ancho de cada artículo*/
+article{
+	width: 60%;
+}
+
+/*Definimos las características especiales de los enlaces de esta página.
+Lo aplicamos solo a los enlaces de artículos para que no nos estropee el menú.
+Las propiedades repetidas en todas las páginas se incluyen en los estilos generales.
+Mediante float: right y el margen derecho se alinea el enlace a la derecha del párrafo.*/
+article a{
+	float: right;
+    background-color: rgb(52, 168, 168);
+    font-style: italic;
+    font-size: 80%;
+    color: white;
+}
+
+/*A los artículos pares les asignamos la clase par, 
+para que en estos artículos cambiar el orden de la imagen al final.
+Así intercalaremos noticias con imagen a la derecha y a la izquierda.*/
+.par{
+	order: 1;
+}

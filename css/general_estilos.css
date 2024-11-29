@@ -1,0 +1,65 @@
+/*
+Módulo: LMSGI02
+Tarea: Tarea evaluativa 2. Sitio Web.
+UD: 02
+Autor: Asier Pérez Silanes
+Fecha: 29/11/2024
+Enlace reflexión:
+*/
+
+/*Este documento reúne los estilos generales que se repiten en cada página,
+como pueden ser los del encabezado, menú de navegación o pie, por ejemplo*/
+
+/*Definimos la fuente de la web*/
+body{
+    font-family: 'helvetica';
+}
+
+/*Definimos el aspecto general de los enlaces*/
+a{
+    padding: 1%;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/*Definimos el color de fondo para cuando el usuario pase por encima del enlace*/
+a:hover{
+	background-color: rgb(255, 199, 125);
+}
+
+/*Definimos el tamaño de la imagen de encabezado y la centramos*/
+header img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+/*Distribuimos el contenido del menú de navegación mediante flexbox*/
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+/*Definimos los estilos de los enlaces del menú de navegación*/
+nav a{
+    color: rgb(19, 42, 63);
+    border-bottom: solid;
+    border-bottom-color: rgb(255, 199, 125);
+}
+
+/*Características de los enlaces del menú cuando el usuario pasa encima*/
+nav a:hover{
+    color: white;
+    border-bottom-color: rgb(52, 168, 168);
+}
+
+/*Estilos del pie*/
+footer{
+    background-color: rgb(255, 199, 125);
+    color: white;
+    font-size: small;
+    text-align: center;
+    font-style: oblique;
+    padding: 0.3%;
+}

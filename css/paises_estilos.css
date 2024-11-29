@@ -1,0 +1,48 @@
+/*
+Módulo: LMSGI02
+Tarea: Tarea evaluativa 2. Sitio Web.
+UD: 02
+Autor: Asier Pérez Silanes
+Fecha: 29/11/2024
+Enlace reflexión:
+*/
+
+/*Distribuimos el contenido del main mediante flexbox, y definimos los márgenes*/
+main{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+	margin: 0% 0% 2% 2%;
+}
+
+/*Distribuimos el contenido de una sección mediante flexbox, y definimos los márgenes y anchura*/
+section{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+	margin: 0% 0% 2% 2%;
+	width: 30%;
+}
+
+/*Definimos el ancho de la imagen de cada sección para que se ajuste al ancho de esta*/
+section img{
+    width: 100%;
+}
+
+section h1{
+	color: rgb(19, 42, 63);
+}
+
+/*Definimos las características especiales de los enlaces de esta página.
+Lo aplicamos solo a los enlaces de secciones para que no nos estropee el menú.
+Las propiedades repetidas en todas las páginas se incluyen en los estilos generales.*/
+section a{
+	background-color: rgb(52, 168, 168);
+	font-style: italic;
+	font-size: 80%;
+	color: white;
+	border: none;
+    margin: 0.5%;
+}

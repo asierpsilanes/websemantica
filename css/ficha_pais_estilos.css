@@ -1,0 +1,28 @@
+/*
+Módulo: LMSGI02
+Tarea: Tarea evaluativa 2. Sitio Web.
+UD: 02
+Autor: Asier Pérez Silanes
+Fecha: 29/11/2024
+Enlace reflexión:
+*/
+
+section{
+    display: flex;
+    align-items: flex-end;
+    height: 15em;
+    overflow: hidden;
+}
+
+section img{
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    margin: 5% 0% 0% 0%;
+}
+
+main p{
+    padding: 5%;
+}

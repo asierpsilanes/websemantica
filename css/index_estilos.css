@@ -1,0 +1,67 @@
+/*
+Módulo: LMSGI02
+Tarea: Tarea evaluativa 2. Sitio Web.
+UD: 02
+Autor: Asier Pérez Silanes
+Fecha: 29/11/2024
+Enlace reflexión:
+*/
+
+/*El main de index está divido en dos secciones cada una con una clase: presentación y noticias*/
+
+/*Distribuimos el contenido de presentacion mediante flexbox, y definimos color de fondo, color de texto y padding*/
+.presentacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(19, 42, 63);
+    color: white;
+    padding: 3%;
+}
+
+/*Anchura y margenes de los párrafos de presentacion*/
+.presentacion p{
+    width: 30%;
+    margin: 0% 5% 0% 0%;
+}
+
+/*Tamaño del ancho de la imagen de presentacion*/
+.presentacion img{
+    width: 30%;
+}
+
+/*Distribuimos el contenido de noticias mediante flexbox*/
+.noticias{
+    display: flex;
+    justify-content: space-around;
+}
+
+/*Hacemos que los articulos vayan en línea y definimos su anchura, margen y padding*/
+article{
+    display: inline-block;
+    width: 40%;
+    margin: 0% 0% 2% 2%;
+    padding: 1%;
+}
+
+/*Definimos el ancho de las imágenes, títulos y párrafos de los artículos, 
+y los centramos mediante display: block y margenes laterales auto*/
+article img, article h3, article p{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+/*Definimos las características especiales de los enlaces de esta página.
+Lo aplicamos solo a los enlaces de artículos para que no nos estropee el menú.
+Las propiedades repetidas en todas las páginas se incluyen en los estilos generales.
+Mediante float: right y el margen derecho se alinea el enlace a la derecha del párrafo.*/
+article a{
+    float: right;
+    background-color: rgb(52, 168, 168);
+    font-style: italic;
+    font-size: 80%;
+    color: white;
+    margin-right: 15%;
+}

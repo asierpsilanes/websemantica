@@ -1,0 +1,67 @@
+/*
+Módulo: LMSGI02
+Tarea: Tarea evaluativa 2. Sitio Web.
+UD: 02
+Autor: Asier Pérez Silanes
+Fecha: 29/11/2024
+Enlace reflexión:
+*/
+
+/*Distribuimos el contenido del main mediante flexbox, y definimos los márgenes*/
+main{
+	display: flex;
+    justify-content: center;
+    margin: 3% 0%;
+}
+
+h2{
+    color:  rgb(19, 42, 63);
+}
+
+/*Distribuimos el contenido del formulario mediante flexbox*/
+form{
+    display: flex;
+    justify-content: flex-start;
+}
+
+/*Hacemos que la lista no tenga estilo*/
+ul{
+    list-style: none;
+}
+
+/*Definimos el margen y algunas características de cada título de entrada del formulario*/
+li{
+    margin: 1em;
+    font-weight: bold;
+    color:  rgb(19, 42, 63);
+}
+
+/*Definimos el tamaño del cuadro del mensaje*/
+textarea{
+    width: 25em;
+    height: 10em;
+    box-sizing: content-box;
+}
+
+/*Definimos el color de fondo de los cuadros de entrada de texto cuando el usuario se posiciona en él*/
+input:focus, textarea:focus {
+    background-color: rgb(255, 235, 210);
+}
+
+/*Definimos las características del botón y mediante float: right lo alineamos a la derecha del cuadro del mensaje*/
+button{
+    float: right;
+    background-color: rgb(52, 168, 168);
+    color: white;
+    border-color: rgb(19, 42, 63);
+}
+
+
+/*Distribuimos el contenido de los enlaces de redes sociales*/
+aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5%;
+    color:  rgb(19, 42, 63);
+}
